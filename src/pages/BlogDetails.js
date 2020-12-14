@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import "../assets/css/blog.css";
 import avatar from "../assets/images/avatar.svg";
+import imgOne from "../assets/images/imgOne.svg";
 
 const BlogDetails = () => {
   return (
@@ -202,6 +203,104 @@ const BlogDetails = () => {
                 lightest one, is offered at the Oktoberfest in the Hacker-Zelt
                 and the Pschorr-Bräurosl.
               </p>
+            </div>
+            <div className="reply-card">
+              <div>
+                <form className="form-inline">
+                  <input type="text" className="form-control reply-input" />
+                  <button className="btn btn-primary reply-btn">Reply</button>
+                </form>
+                <p className="font-weight-bold">David responded</p>
+                <p className="post-time">30 minutes ago</p>
+                <p>
+                  Each and every one of our Team represent the spirit of our
+                  company: driven, committed, and acutely aware of how limitless
+                  our is to...<span className="blue-color">MORE</span>
+                </p>
+              </div>
+            </div>
+            <div className="reply-card">
+              <div className="btn-inline">
+                <button className="btn btn-primary fb-btn">Fcebook</button>
+                <button className="btn btn-primary twt-btn">Twitter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="web-container container">
+          <div>
+            <div className="row justify-content-between mt-5 ml-2 mr-2 ">
+              <h3 className="font-weight-bold">Most Read Articles</h3>
+              <p>See More {`>>`}</p>
+            </div>
+            <div className="row">
+              <div className="col-md-4 col-sm-12">
+                <div className="card blog-card">
+                  <img
+                    className="card-img-top"
+                    src={imgOne}
+                    alt="Card image cap"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title font-weight-bold">
+                      Long Established
+                    </h5>
+                    <p className="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content...
+                    </p>
+                    <div className="d-flex justify-content-between">
+                      <p>May 20th, 2020</p>
+                      <p className="text-primary">Read more</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 col-sm-12">
+                <div className="card blog-card">
+                  <img
+                    className="card-img-top"
+                    src={imgOne}
+                    alt="Card image cap"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title font-weight-bold">
+                      Long Established
+                    </h5>
+                    <p className="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content...
+                    </p>
+                    <div className="d-flex justify-content-between">
+                      <p>May 20th, 2020</p>
+                      <p className="text-primary">Read more</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 col-sm-12">
+                <div className="card blog-card">
+                  <img
+                    className="card-img-top"
+                    src={imgOne}
+                    alt="Card image cap"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title font-weight-bold">
+                      Long Established
+                    </h5>
+                    <p className="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content...
+                    </p>
+                    <div className="d-flex justify-content-between">
+                      <p>May 20th, 2020</p>
+                      <p className="text-primary">Read more</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

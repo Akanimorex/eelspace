@@ -7,3 +7,34 @@
 .blog-comment-section {
   width: 70%;
 }
+
+.reply-card {
+  background: rgba(30, 115, 232, 0.03);
+  border: 1.25167px solid #ffffff;
+  border-radius: 5.00669px;
+  padding: 1.5rem;
+}
+
+.reply-input {
+  width: 80% !important;
+  border-radius: 0 !important;
+}
+
+.reply-btn {
+  border-radius: 0 !important;
+}
+
+.post-time {
+  color: #c4c4c4;
+  font-size: 14px;
+}
+
+.fb-btn {
+  background-color: #4469b0;
+  border: none;
+  margin-right: 0.7rem;
+}
+.twt-btn {
+  background-color: #2696dd;
+  border: none;
+}
