@@ -1,0 +1,61 @@
+.banner {
+  background-image: url(../images/land-background.svg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+}
+
+.blog-info li {
+  font-size: 18px;
+}
+
+.cospace-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  border-radius: 5px;
+}
+
+.blog-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+  border-radius: 5px;
+}
+
+.third-mother-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.third-mother-flex .left-side {
+  align-self: center;
+}
+/* .left-side {
+  flex-basis: 50%;
+} */
+/* .right-side {
+  flex-basis: 100%;
+} */
+
+/* .space-card-left {
+  padding: 2.5rem;
+} */
+
+@media screen and (max-width: 768px) {
+  .cospace-card {
+    flex-direction: column;
+    height: auto;
+  }
+}

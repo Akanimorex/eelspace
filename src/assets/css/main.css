@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: #464855;
+  background-color: #faf5f5;
+}
+
+:root {
+  --the-blue: #5146d9;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+.blue-color {
+  color: var(--the-blue) !important;
+}
+.custom-navbar {
+  background-color: var(--the-blue) !important;
+  color: #fff !important;
+}
+
+.nav-input {
+  height: 52.29px;
+  border: 1px solid #c1c5e2;
+  border-radius: 50px;
+  /* margin-left: 10%; */
+  background: var(--the-blue);
+}
+.nav-input::placeholder {
+  color: #c1c5e2;
+  padding-left: 10px;
+}
+
+.auth-btns {
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  color: var(--the-blue);
+  background-color: #fff;
+}
+
+.landing-text {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-text h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.landing-text span {
+  display: block;
+  font-size: 22px;
+}
+
+.bottom-p {
+  padding-top: 5rem;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.header {
+  height: 488px;
+  background-color: var(--the-blue);
+  position: relative;
+}
+
+.tos-head {
+  color: var(--the-blue);
+  text-align: left;
+  font-size: 24px;
+}
+.tos-body {
+  text-align: left;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.t-component {
+  padding-top: 5%;
+}
+
+/* footer */
+.footer-container {
+  background-color: var(--the-blue);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  padding-top: 5rem;
+  margin-top: 3rem;
+  /* position: absolute;
+  bottom: 0; */
+}
+
+.footer li {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.footer p {
+  text-align: left;
+}
+
+/* .footer-list li {
+  padding: 10px;
+} */
+
+.footer-line {
+  border: 0.8px solid #fff;
+}
+
+.foot-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 30px;
+  }
+  .landing-text span {
+    font-size: 16px;
+  }
+
+  .foot-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+  .last-item-footer {
+    font-size: 7.5px;
+  }
+}

@@ -1,0 +1,11 @@
+.jobs-list li {
+  padding: 0.5rem 0;
+}
+
+.jobs-list-card {
+  background-color: #f7f8fa;
+}
+
+.jobs-list-card {
+  height: 70vh !important;
+}
