@@ -38,3 +38,9 @@
   background-color: #2696dd;
   border: none;
 }
+
+@media screen and (max-width: 768px) {
+  .blog-comment-section {
+    width: 100%;
+  }
+}
