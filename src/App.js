@@ -4,6 +4,7 @@ import Privacy from "./pages/Privacy";
 import Careers from "./pages/Careers";
 import Home from "./pages/Home";
 import BlogDetails from "./pages/BlogDetails";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <Privacy/> */}
       {/* <Careers/> */}
       {/* <Home/> */}
-      <BlogDetails />
+      {/* <BlogDetails /> */}
+      <Contact />
     </div>
   );
 }

@@ -6,6 +6,11 @@ import "../assets/css/blog.css";
 import avatar from "../assets/images/avatar.svg";
 import imgOne from "../assets/images/imgOne.svg";
 
+import { Icon, InlineIcon } from "@iconify/react";
+
+import thumbsUp from "@iconify-icons/carbon/thumbs-up";
+import thumbsDown from "@iconify-icons/carbon/thumbs-down";
+
 const BlogDetails = () => {
   return (
     <div>
@@ -177,7 +182,7 @@ const BlogDetails = () => {
         </div>
         <div className="web-container container">
           <div className="blog-comment-section">
-            <div className="row justify-content-between blue-color">
+            <div className="row justify-content-between blue-color m-1">
               <p>Responses</p>
               <p>Write Responses</p>
             </div>
@@ -203,6 +208,28 @@ const BlogDetails = () => {
                 lightest one, is offered at the Oktoberfest in the Hacker-Zelt
                 and the Pschorr-Bräurosl.
               </p>
+              <ul className="list-unstyled d-flex reactions">
+                <li>
+                  <Icon icon={thumbsUp} />
+                </li>
+                <li>
+                  <Icon icon={thumbsDown} />
+                </li>
+                <li>
+                  <svg
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.875 4.0174V1.82471C6.875 1.30773 6.45447 0.887207 5.9375 0.887207C5.70494 0.887207 5.48035 0.976328 5.30639 1.13808L4.90294 1.51132C3.57544 2.73962 1.35316 4.79529 0.216064 5.93572C0.0769041 6.07611 0 6.28058 0 6.5122C0 6.74382 0.0769041 6.94828 0.216064 7.08899C1.35316 8.22914 3.57544 10.2848 4.90294 11.5131L5.30639 11.8863C5.48035 12.0481 5.70494 12.1372 5.9375 12.1372C6.45447 12.1372 6.875 11.7167 6.875 11.1997V9.01435C11.3751 9.07751 14.375 10.4969 14.375 11.8247C14.375 11.9974 14.5148 12.1372 14.6875 12.1372C14.8602 12.1372 15 11.9974 15 11.8247C15 7.61358 11.3837 4.16997 6.875 4.0174ZM6.56249 8.38719C6.38975 8.38719 6.24998 8.52697 6.24998 8.6997V11.1997C6.24998 11.3721 6.10959 11.5122 5.93747 11.5122C5.84225 11.5122 5.77267 11.4664 5.73116 11.428L5.32771 11.0544C4.00329 9.82915 1.78711 7.77899 0.659178 6.64799C0.642098 6.63091 0.624989 6.58207 0.624989 6.5122C0.624989 6.44232 0.642069 6.39349 0.659178 6.3767C1.78711 5.2454 4.00329 3.19524 5.32774 1.96996L5.73119 1.59642C5.7727 1.55796 5.84228 1.5122 5.9375 1.5122C6.10962 1.5122 6.25001 1.65226 6.25001 1.82471V4.32469C6.25001 4.49742 6.38978 4.6372 6.56252 4.6372C10.3198 4.6372 13.4662 7.09019 14.209 10.3467C12.8753 9.1785 9.98778 8.38719 6.56249 8.38719Z"
+                      fill="#464855"
+                    />
+                  </svg>
+                </li>
+              </ul>
             </div>
             <div className="reply-card">
               <div>
@@ -219,10 +246,15 @@ const BlogDetails = () => {
                 </p>
               </div>
             </div>
-            <div className="reply-card">
+            <div className="reply-card mt-3">
               <div className="btn-inline">
-                <button className="btn btn-primary fb-btn">Fcebook</button>
-                <button className="btn btn-primary twt-btn">Twitter</button>
+                <button className="btn btn-primary fb-btn text-white">
+                  <i className="fa fa-facebook"></i>
+                  Share
+                </button>
+                <button className="btn btn-primary twt-btn">
+                  <i className="fa fa-twitter"></i>Tweet
+                </button>
               </div>
             </div>
           </div>

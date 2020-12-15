@@ -2,6 +2,8 @@
   background: #ffffff;
   border: 0.2px solid #464855;
   padding: 0.7rem;
+  position: relative;
+  margin-bottom: 1rem;
 }
 
 .blog-comment-section {
@@ -37,6 +39,17 @@
 .twt-btn {
   background-color: #2696dd;
   border: none;
+}
+
+.reactions {
+  position: absolute;
+  right: 0;
+  bottom: 0.1rem;
+  padding: 0.1rem 0.2rem;
+}
+
+.reactions li {
+  padding: 0 0.4rem;
 }
 
 @media screen and (max-width: 768px) {
