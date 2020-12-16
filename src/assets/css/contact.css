@@ -1,0 +1,68 @@
+.contact-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pink-card {
+  background-color: #fa949d;
+  border-radius: 20px;
+  width: 30vw;
+  z-index: 1;
+  position: absolute;
+  height: 100vh;
+  clip-path: circle(42.4% at 100% 100%);
+}
+.blue-card {
+  background-color: var(--the-blue);
+  color: #fff;
+  width: 30vw;
+  height: 100vh;
+
+  /* width: 488px;
+  height: 778px; */
+
+  /* background: #2b478b; */
+  border-radius: 20px;
+}
+
+.card-bottom-socials li {
+  padding: 0.7rem;
+}
+
+.card-top-socials {
+  margin: 2rem;
+}
+.card-top-socials li {
+  padding-top: 2rem;
+}
+
+.contact-form label {
+  margin-top: 1rem;
+}
+
+.contact-flex .right-side {
+  align-self: center;
+}
+
+.contact-btn {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .contact-flex {
+    flex-direction: column;
+  }
+  .blue-card {
+    width: 100%;
+    height: auto;
+  }
+  .pink-card {
+    display: none;
+  }
+
+  .card-top-socials {
+    margin: 0.3rem;
+  }
+  .card-top-socials li {
+    padding-top: 2rem;
+  }
+}
