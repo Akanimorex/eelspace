@@ -1,0 +1,24 @@
+.forget-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: left;
+}
+
+.request-input {
+  height: 60px;
+}
+
+.request-btn {
+  background-color: #fa949d;
+  color: #fff;
+  width: 100%;
+  margin-top: 1rem;
+  height: 60px;
+}
+
+.request-btn:hover {
+  color: #fff;
+}

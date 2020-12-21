@@ -5,6 +5,9 @@ import Careers from "./pages/Careers";
 import Home from "./pages/Home";
 import BlogDetails from "./pages/BlogDetails";
 import Contact from "./pages/Contact";
+import SignUp from "./pages/SignUp";
+import Login from "./pages/Login";
+import ForgetPassword from "./pages/ForgotPassword";
 
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
       {/* <Careers/> */}
       {/* <Home/> */}
       {/* <BlogDetails /> */}
-      <Contact />
+      {/* <SignUp /> */}
+      {/* <Login /> */}
+      <ForgetPassword />
     </div>
   );
 }

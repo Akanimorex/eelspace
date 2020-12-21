@@ -2,7 +2,6 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import "../assets/css/contact.css";
-import envelope from "../assets/images/envelope-regular.svg";
 import { Icon, InlineIcon } from "@iconify/react";
 import instagramOutlined from "@iconify-icons/ant-design/instagram-outlined";
 
@@ -179,7 +178,7 @@ const Contact = () => {
                 </div>
                 <div className="row">
                   <div className="col-md-12">
-                    <button className="btn btn-primary contact-btn">
+                    <button className="btn mt-1 btn-primary contact-btn">
                       Send A Message
                     </button>
                   </div>
