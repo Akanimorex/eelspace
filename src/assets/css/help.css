@@ -1,0 +1,51 @@
+.help-input {
+  height: 50px;
+  width: 50%;
+}
+
+.help-input::placeholder {
+  padding-left: 100px;
+}
+.help-btn {
+  height: 50px;
+  width: 112px;
+  background: var(--the-pink);
+  color: #fff;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 75px;
+  /* left: -12px; */
+  right: 0;
+  left: -56%;
+  padding-left: 38px;
+  /* width: fit-content; */
+  /* background-color: red; */
+}
+
+.help-container {
+  margin: 2rem;
+}
+
+.tab-link {
+  color: #000 !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #faf5f5;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+.nav-tabs .nav-link {
+  border: none;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}

@@ -8,18 +8,22 @@ import Contact from "./pages/Contact";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 import ForgetPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
+import Help from "./pages/Help";
 
 function App() {
   return (
     <div className="App">
-      {/* <Tos/> */}
+      {/* <Tos /> */}
       {/* <Privacy/> */}
       {/* <Careers/> */}
       {/* <Home/> */}
       {/* <BlogDetails /> */}
       {/* <SignUp /> */}
       {/* <Login /> */}
-      <ForgetPassword />
+      {/* <ForgetPassword /> */}
+      {/* <ResetPassword /> */}
+      <Help />
     </div>
   );
 }
