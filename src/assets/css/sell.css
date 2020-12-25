@@ -1,0 +1,39 @@
+.video-back {
+  width: 570px;
+  height: 347px;
+  background-image: url(../images/video.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.play-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sell-contact-btn {
+  width: 350px;
+  height: 70px;
+  background: var(--the-blue);
+  color: #fff;
+}
+
+.grey-questions {
+  background-color: #e8faf4;
+  padding: 5rem 0;
+}
+
+.sell-container {
+  margin: 3rem;
+}
+
+/* buy page */
+
+@media screen and (max-width: 768px) {
+  .video-back {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

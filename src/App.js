@@ -10,6 +10,12 @@ import Login from "./pages/Login";
 import ForgetPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import Help from "./pages/Help";
+import Trust from "./pages/Trust";
+import Sell from "./pages/Sell";
+import Buy from "./pages/Buy";
+import Intellectual from "./pages/Intellectual";
+import VirtualCommunity from "./pages/VirtualCommunity";
+import ViewQuestion from "./pages/VirtualCommunity";
 
 function App() {
   return (
@@ -23,7 +29,12 @@ function App() {
       {/* <Login /> */}
       {/* <ForgetPassword /> */}
       {/* <ResetPassword /> */}
-      <Help />
+      {/* <Help /> */}
+      {/* <Trust /> */}
+      {/* <Sell /> */}
+      {/* <Buy /> */}
+      {/* <VirtualCommunity /> */}
+      <ViewQuestion />
     </div>
   );
 }
