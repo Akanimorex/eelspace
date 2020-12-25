@@ -6,7 +6,7 @@
 }
 
 .comm-reactions > li {
-  padding: 0 3rem;
+  padding: 0 2.5rem;
 }
 
 #first-react {
@@ -28,4 +28,20 @@
   text-align: center;
   background: #eef2f5;
   border-radius: 5px;
+}
+
+/* view question page */
+
+.questioneer > .right-side {
+  align-self: center;
+  padding-left: 1rem;
+}
+
+.answer-btn-div {
+  padding-top: 1rem;
+  width: fit-content;
+  position: relative;
+  right: 0;
+  left: 94%;
+  transform: translate(-50%, 0);
 }

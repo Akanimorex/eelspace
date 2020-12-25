@@ -15,7 +15,7 @@ import Sell from "./pages/Sell";
 import Buy from "./pages/Buy";
 import Intellectual from "./pages/Intellectual";
 import VirtualCommunity from "./pages/VirtualCommunity";
-import ViewQuestion from "./pages/VirtualCommunity";
+import ViewQuestion from "./pages/ViewQuestion";
 
 function App() {
   return (
