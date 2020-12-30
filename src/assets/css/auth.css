@@ -4,14 +4,14 @@
   text-align: left;
 }
 
-.carousel-indicators {
+.auth-indicators {
   position: relative;
   bottom: 0;
   justify-content: left;
   margin: 0 !important;
 }
 
-.carousel-indicators li {
+.auth-indicators li {
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
   width: 12px;

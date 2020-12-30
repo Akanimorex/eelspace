@@ -16,6 +16,7 @@ import Buy from "./pages/Buy";
 import Intellectual from "./pages/Intellectual";
 import VirtualCommunity from "./pages/VirtualCommunity";
 import ViewQuestion from "./pages/ViewQuestion";
+import Landing from "./pages/Landing";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <Sell /> */}
       {/* <Buy /> */}
       {/* <VirtualCommunity /> */}
-      <ViewQuestion />
+      {/* <ViewQuestion /> */}
+      <Landing />
     </div>
   );
 }

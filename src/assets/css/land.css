@@ -1,0 +1,160 @@
+.grid-display {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-display img {
+  margin-top: 7px;
+}
+
+.first-boxes {
+  margin-top: -30px;
+}
+
+.about-section .left-side {
+  align-self: center;
+  position: relative;
+}
+
+.how-flex {
+  padding-top: 5rem;
+}
+
+.steps {
+  font-weight: 800;
+  font-size: 12rem;
+  position: absolute;
+  color: rgba(70, 72, 85, 0.1);
+  /* text-align: center; */
+  /* top: 0; */
+  /* left: 0; */
+  /* bottom: 0; */
+  /* right: 0; */
+  /* z-index: -1; */
+  overflow: hidden;
+}
+.how-flex .left-side {
+  align-self: center;
+}
+
+.how p {
+  color: rgb(70, 72, 85);
+}
+
+.choose-list li {
+  padding-top: 10px;
+}
+
+.testimonial-card {
+  background: var(--the-blue);
+  color: #fff;
+  border-radius: 24px;
+  height: 400px;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.test-line {
+  width: 56px;
+  height: 2px;
+  border-color: #fff;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.test-indicators {
+  position: relative;
+  top: 97px;
+  bottom: 0;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+.trend-card {
+  width: 285px;
+  height: auto;
+
+  background: #ffffff;
+  border: 0.25px solid #464855;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.trend-user-image {
+  position: relative;
+  top: -23px;
+}
+
+.trend-golden {
+  display: flex;
+  justify-content: space-around;
+}
+
+.trend-golden li {
+  background-color: #fef8e8;
+  border-radius: 5px;
+  color: #efb113;
+}
+
+.article-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+  border-radius: 5px;
+}
+
+.line-dark {
+  border-color: #000;
+}
+
+.trusted-brands {
+  display: flex;
+  justify-content: space-around;
+}
+
+.largest-svg {
+  width: 500px;
+  height: 270px;
+}
+
+@media screen and (max-width: 768px) {
+  .trusted-brands {
+    flex-direction: column;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+  }
+
+  .grid-display img {
+    width: 100px;
+    height: 100px;
+  }
+  .grid-display {
+    grid-template-columns: repeat(2, 0.3sfr);
+    grid-gap: 3px;
+  }
+  .largest-svg {
+    width: 200px;
+    height: 270px;
+  }
+
+  .carousel-inner {
+    width: fit-content;
+  }
+
+  .testimonial-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  .carousel-item p {
+    font-size: 10px;
+  }
+}

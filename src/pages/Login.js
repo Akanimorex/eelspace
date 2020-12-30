@@ -78,7 +78,7 @@ const Login = () => {
                 </div>
               </div>
             </div>
-            <ol class="carousel-indicators">
+            <ol class="carousel-indicators auth-indicators">
               <li
                 data-target="#carouselExampleIndicators"
                 data-slide-to="0"

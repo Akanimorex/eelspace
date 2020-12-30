@@ -19,40 +19,45 @@ const ViewQuestion = () => {
       <Header />
       <main>
         <div className="container">
-          <div className="text-right">
-            <select className="form-control">
-              <option>
-                <i className="fa fa-sliders"></i>Filter Options
-              </option>
-              <option>1</option>
-              <option>1</option>
-            </select>
+          <div className="row justify-content-between">
+            <div>
+              <span>
+                {" "}
+                <svg
+                  width="9"
+                  height="15"
+                  viewBox="0 0 9 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.33625 2.33625L6.75 0.75L0 7.5L6.75 14.25L8.33625 12.6637L3.18375 7.5L8.33625 2.33625Z"
+                    fill="#464855"
+                  />
+                </svg>
+                Back to Questions
+              </span>
+            </div>
+
+            <div className="">
+              <div className="">
+                <i className="fa fa-sliders slider-icon"></i>
+                <select className="form-control filter-form">
+                  <option>Filter Options</option>
+                  <option>1</option>
+                  <option>1</option>
+                </select>
+              </div>
+            </div>
           </div>
-          <div>
-            <span>
-              {" "}
-              <svg
-                width="9"
-                height="15"
-                viewBox="0 0 9 15"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.33625 2.33625L6.75 0.75L0 7.5L6.75 14.25L8.33625 12.6637L3.18375 7.5L8.33625 2.33625Z"
-                  fill="#464855"
-                />
-              </svg>
-              Back to Questions
-            </span>
-          </div>
+
           <div>
             <h1>
               How can I preserve user accounts in Jira issue history while
               import data to Jira Cloud?
             </h1>
             <div className="d-flex questioneer pb-4">
-              <img src={userImage} alt="" />
+              <img src={userImage} alt="user" />
               <div className="right-side">
                 <p>
                   <span className="font-weight-bold">Mfonobong Umondia</span>
