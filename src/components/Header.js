@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/images/logo.svg";
+import ModalContent from "./ModalContent";
+import "../assets/css/modal.css";
+import "react-simple-hook-modal/dist/styles.css";
+import {
+  ModalProvider,
+  Modal,
+  useModal,
+  ModalTransition,
+} from "react-simple-hook-modal";
 
 const Header = () => {
+  const { isModalOpen, openModal, closeModal } = useModal();
+
   return (
     <header className="header">
       <nav className="navbar custom-navbar navbar-expand-lg navbar-light bg-light">
+        <Modal
+          id="any-unique-identifier"
+          isOpen={isModalOpen}
+          transition={ModalTransition.BOTTOM_UP}
+        >
+          <ModalContent close={closeModal} />
+        </Modal>
         <a className="navbar-brand" href="#">
           <img src={logo} alt="logo" />{" "}
           <span className="text-white font-weight-bold">eelspace</span>
@@ -106,12 +124,14 @@ const Header = () => {
         <h1>Connect globally, communicate globally</h1>
 
         <p>Find answers, support and inspiration from other eelspace users</p>
-        <button className="btn comm-btn">
+        <button className="btn comm-btn" onClick={openModal}>
           <span className="">
             Ask the community <i className="fa fa-plus-circle"></i>
           </span>
         </button>
       </div>
+
+      {/* <ModalContent /> */}
     </header>
   );
 };

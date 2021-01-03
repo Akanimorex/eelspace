@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Tos from "./pages/Tos";
 import Privacy from "./pages/Privacy";
 import Careers from "./pages/Careers";
@@ -17,6 +18,7 @@ import Intellectual from "./pages/Intellectual";
 import VirtualCommunity from "./pages/VirtualCommunity";
 import ViewQuestion from "./pages/ViewQuestion";
 import Landing from "./pages/Landing";
+import ModalContent from "./components/ModalContent";
 
 function App() {
   return (
@@ -35,8 +37,9 @@ function App() {
       {/* <Sell /> */}
       {/* <Buy /> */}
       {/* <VirtualCommunity /> */}
-      {/* <ViewQuestion /> */}
-      <Landing />
+      <ViewQuestion />
+      {/* <Landing /> */}
+      {/* <ModalContent /> */}
     </div>
   );
 }

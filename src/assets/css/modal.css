@@ -1,0 +1,57 @@
+.the-modal {
+  z-index: 50;
+  /* transition: all 0.4s ease-in-out; */
+  /* background-color: #faf5f5; */
+  /* height: 100vh; */
+  /* position: absolute;
+  top: 0;
+  bottom: 0; */
+  /* width: 100%; */
+  min-height: 70%;
+  transition: transform 0.2s ease-in-out 0s;
+  transform: translate(0px, 0px);
+  transform-origin: center center;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  overflow: auto;
+}
+div.DraftEditor-root {
+  /* border: 1px solid #000; */
+  background-color: #faf5f5;
+  height: 546px;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+.modal-textarea {
+  width: 100vw;
+  background-color: #faf5f5;
+}
+.format-options li {
+  padding: 0 20px;
+}
+
+.type-box {
+  background-color: #faf5f5;
+  width: fit-content;
+  height: auto;
+  padding-top: 10px;
+}
+
+.blog-btn-publish {
+  background-color: var(--the-blue);
+  color: #fff;
+}
+
+.blog-btn-cancel {
+  background-color: var(--the-pink);
+  color: #fff;
+}
+
+.modal-img {
+  height: 93px;
+  width: 93px;
+  border-radius: 50%;
+}

@@ -71,7 +71,7 @@
 
 .test-indicators {
   position: relative;
-  top: 97px;
+  top: 200px;
   bottom: 0;
   justify-content: center;
   margin: 0 !important;
@@ -156,5 +156,9 @@
   }
   .carousel-item p {
     font-size: 10px;
+  }
+
+  .article-card {
+    margin-top: 4px;
   }
 }

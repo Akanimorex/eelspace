@@ -12,11 +12,19 @@ import thumbsUp from "@iconify-icons/carbon/thumbs-up";
 import thumbsDown from "@iconify-icons/carbon/thumbs-down";
 import userOutlined from "@iconify-icons/ant-design/user-outlined";
 import Footer from "../components/Footer";
-
+import {
+  ModalProvider,
+  Modal,
+  useModal,
+  ModalTransition,
+} from "react-simple-hook-modal";
 const ViewQuestion = () => {
   return (
     <div>
-      <Header />
+      <ModalProvider>
+        <Header />
+      </ModalProvider>
+
       <main>
         <div className="container">
           <div className="row justify-content-between">
